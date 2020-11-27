@@ -1,0 +1,68 @@
+body, div {
+    margin:0; padding:0;font-style: normal;font:16px/22px "\5B8B\4F53",Arial, Helvetica, sans-serif
+} 
+img {border: 0; vertical-align:middle}
+
+body{
+    background:url(../images/bg2.png) no-repeat;
+    background-size: cover;
+    -webkit-background-size: cover; 
+    -o-background-size: cover;
+    background-position: center 0;
+} 
+#loginForm{
+    width: 350px;
+    height: 240px;
+    background-color: grey;
+    border:1px solid rebeccapurple ;
+    margin-left: 450px;
+    margin-top: 160px;
+}
+#loginForm p{
+    text-indent: 45px;
+}
+#userName,#password,#vcode{
+    height: 30px;
+    border: 1px solid white;
+    text-indent: 25px;
+}
+#userName{
+    width: 280px;
+    background-image: url(../images/user.png) ;
+    background-repeat: no-repeat;
+    background-position: 2px center;
+}
+#password{
+    width: 280px;
+    background-image: url(../images/lock.png);
+    background-repeat: no-repeat;
+    background-position: 2px center;
+}
+#vcode{
+    width: 160px;
+    background-image: url(../images/user.png);
+    background-repeat: no-repeat;
+    background-position: 2px center;
+}
+#vcodeImg{
+    cursor: pointer;
+    border: 0;
+    height: 30px;
+    vertical-align: middle;
+}
+#btLogin{
+    width: 280px;
+    height: 35px;
+    background-color:slateblue;
+    color: white;
+    font-weight: bold;
+}
+#autologin{
+    position: relative;
+    left: 50px;
+    cursor: pointer;
+}
+#autologinFont{
+    position: relative;
+    left: 60px;
+}
